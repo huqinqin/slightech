@@ -1,0 +1,219 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row-fluid {
+	padding: 0px;
+}
+
+
+/*整体页面框架*/
+
+.wrap {
+	width: 100%;
+}
+
+
+/*固定小标题导航样式*/
+
+.wrap .lose1 {
+	width: 100%;
+	height: 60px;
+	margin-top: 60px;
+	background-color: #FFFFFF;
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 20;
+}
+
+.wrap .lose1 h3 {
+	color: #00ADEE;
+	font-size: 20px;
+	margin-left: 15%;
+}
+
+
+/*玫瑰背景*/
+
+.wrap .lose2 {
+	width: 100%;
+	height: 558px;
+	padding-top: 200px;
+	background-image: url(../img/gift_slide.jpg);
+	background-size: 100% 100%;
+	margin-top: 120px;
+}
+
+.wrap .lose2 .content {
+	margin-left: 10%;
+}
+
+.wrap .lose2 .content p {
+	font-size: 40px;
+	color: white;
+}
+
+
+/*防丢器外观*/
+
+.wrap .lose3 {
+	width: 100%;
+	height: 600px;
+	padding-top: 150px;
+	background-image: url(../img/gift_section_one.jpg);
+	background-size: 100% 100%;
+}
+
+.wrap .lose3 .content {
+	margin-left: 45%;
+}
+
+.wrap .lose3 .content h2 {
+	color: white;
+}
+
+.wrap .lose3 .content p {
+	color: white;
+	font-size: 20px;
+}
+
+
+/*防丢器描述*/
+
+.wrap .lose4 {
+	width: 100%;
+	height: 600px;
+	padding-top: 150px;
+	background-image: url(../img/gift_section_two.jpg);
+	background-size: 100% 100%;
+}
+
+.wrap .lose4 .content {
+	margin-left: 8%;
+}
+
+.wrap .lose4 .content h2 {
+	color: white;
+}
+
+.wrap .lose4 .content h4 {
+	color: white;
+}
+
+.wrap .lose4 .content p {
+	color: white;
+	font-size: 15px;
+}
+
+
+/*防丢器描述*/
+
+.wrap .lose5 {
+	width: 100%;
+	height: 600px;
+	padding-top: 150px;
+	background-image: url(../img/9k=-3.jpg);
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrap .lose5 .content {
+	width: 60%;
+	margin-left: 8%;
+}
+
+.wrap .lose5 .content h2 {
+	color: white;
+}
+
+.wrap .lose5 .content h4 {
+	color: white;
+}
+
+.wrap .lose5 .content p {
+	color: white;
+	font-size: 15px;
+}
+.wrap .lose5 img{
+	width: 40%;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 5%;
+	top: 30%;
+}
+/*成功案例*/
+.wrap .lose6{
+	width: 100%;
+	padding-top: 80px;
+	height: 600px;
+	text-align: center;
+}
+.wrap .lose6 .content{
+	width: 100%;
+	text-align: center;
+}
+.wrap .lose6 .content h3{
+	font-size: 35px;
+}
+.wrap .lose6 .content .pp_wrap{
+	width: 100%;
+	padding: 80px 80px 0px 80px;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: left;
+}
+.wrap .lose6 .content .pp_wrap span{
+	display: inline-block;
+	width: 200px;
+	height: 65px;
+	margin-right: 80px;
+	margin-bottom: 60px;
+}
+.wrap .lose6 .content .pp_wrap span:nth-child(1){
+	background-image: url(../img/pp.png);
+	background-position: 0px 0px;
+}
+.wrap .lose6 .content .pp_wrap span:nth-child(2){
+	background-image: url(../img/pp.png);
+	background-position: 200px 0px;
+}
+.wrap .lose6 .content .pp_wrap span:nth-child(3){
+	background-image: url(../img/pp.png);
+	background-position: 200px -210px;
+}
+.wrap .lose6 .content .pp_wrap span:nth-child(4){
+	background-image: url(../img/pp.png);
+	background-position: 0px -65px;
+}
+.wrap .lose6 .content .pp_wrap span:nth-child(5){
+	background-image: url(../img/pp.png);
+	background-position: 200px -65px;
+}
+.wrap .lose6 .content .pp_wrap span:nth-child(6){
+	background-image: url(../img/pp.png);
+	background-position: 0px -210px;
+}
+.wrap .lose6 .content .pp_wrap span:nth-child(7){
+	background-image: url(../img/pp.png);
+	background-position: 0px -140px;
+}
+.wrap .lose6 .content .pp_wrap span:nth-child(8){
+	background-image: url(../img/pp.png);
+	background-position: 200px -140px;
+}
+

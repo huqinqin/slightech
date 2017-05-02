@@ -1,0 +1,136 @@
+html,body{
+	width: 100%;
+}
+body{
+	background-color: #F5F5F5;
+	
+}
+/*框架*/
+.wrap{
+	width: 100%;
+	height: 1000px;
+
+}
+.wrap .nav{
+	width: 100%;
+	height: 60px;
+	padding-top: 5px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.wrap .nav .logo{
+	margin-bottom: -18px;
+}
+.wrap .nav ul{
+	display: inline-block;
+	margin-left: 25px;
+}
+.wrap .nav .nav_r{
+	float: right;
+	margin-top: 18px;
+	margin-right: 30px;
+	position: relative;
+}
+.wrap .nav .nav_r .hide{
+	width: 160px;
+	height: 83px;
+	background-image: url(../img/paopao.png);
+	background-position: center;
+	position: absolute;
+	top: 30px;
+	right: 60px;
+	display: none;
+}
+.wrap .nav .nav_r .hide p{
+	width: 140;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 30px;
+}
+.wrap .nav .nav_r .hide p:hover{
+	background-color: #1589F5;
+	color: white;
+}
+.wrap .nav div span{
+	margin-right: 25px;
+}
+.wrap .nav ul li{
+	display: inline-block;
+	margin-right: 25px;
+}
+.wrap .nav ul li a{
+	color: black;
+}
+.wrap .nav .nav_btn{
+	display: none;
+}
+.wrap .nav .s_h{
+	display: none;
+}
+/*瀑布流图片div样式*/
+.wrap .content{
+	width: 90%;
+	padding-top: 90px;
+	margin: 0 auto;
+	text-align: center;
+}
+.wrap .content .p_wrap{
+	display: inline-block;
+	width: 30%;
+	min-width: 300px;
+	margin-bottom: 25px;
+	background-color: white;
+	/*margin-right: 1%;*/
+	margin-left: 30px;
+}
+.wrap .content .p_wrap img{
+	width: 100%;
+	background-size: 100% 100%;
+	margin-bottom: 20px;
+}
+.wrap .content .p_wrap span{
+	display: block;
+	color: #ACACAC;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.wrap .content .p_wrap p{
+	font-size: 15px;
+	padding: 0px 10px 0px 10px;
+	line-height: 20px;
+}
+.wrap .content .p_wrap .time{
+	width: 100%;
+	border-top: 1px solid #EEEEEE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #999999;
+}
+.wrap .content .p_wrap a{
+	color: black;
+	padding-left: 10px;
+}
+.wrap .content .p_wrap a:hover{
+	color: #5AA1D6;
+	text-decoration: underline;
+}
+.wrap .content .p_wrap p a{
+	color: #5AA1D6;
+}
+.wrap .content .p_wrap p a:hover{
+	color: black;
+	text-decoration: underline;
+}
+/*页脚*/
+.wrap .footer{
+	width: 100%;
+	background-color: #DDDDDD;
+	margin: 0 auto;
+	padding: 30px 0px 30px 0px;
+	margin-top: 20px;
+	text-align: center;
+}

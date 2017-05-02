@@ -1,0 +1,64 @@
+html,body{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*框架*/
+.wrap{
+	width: 90%;
+	max-width: 1200px;
+	min-width: 280px;
+	margin: 0 auto;
+}
+/*设计奖链接样式*/
+.wrap .content_up{
+	width: 100%;
+	border: 1px solid #EFEFEF;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.wrap .content_up .head_img{
+	width: 100%;
+	padding-top: 100px;
+	height: 150px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.wrap .content_up .head_img img{
+	width: 80%;
+	background-size: 100% 100%;
+}
+.wrap .content_up .head_img .hide_img{
+	width: 150px;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	display: none;
+}
+.wrap .content_up h3{
+	padding: 0px 25px 0px 25px;
+	color: #0088CC;
+	margin-top: 25px;
+}
+.wrap .content_up h3:hover{
+	color: black;
+}
+.wrap .content_up p{
+	padding: 0px 25px 0px 25px;
+	line-height: 20px;
+}
+.wrap .content_up hr{
+	border: 1px solid #EFEFEF;
+}
+.wrap .content_up .time{
+	width: 100%;
+	padding: 5px 25px 20px 25px;
+	position: relative;
+}
+.wrap .content_up .time img{
+	position: absolute;
+	top: 0px;
+	right: 80px;
+}

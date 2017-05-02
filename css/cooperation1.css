@@ -1,0 +1,207 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.container-fluid {
+     padding-right: 0px; 
+     padding-left: 0px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+.row-fluid{
+	padding: 0px;
+}
+/*整体页面框架*/
+.wrap{
+	width: 100%;
+}
+
+/*固定小标题导航样式*/
+.wrap .lose1{
+	width: 100%;
+	height: 60px;
+	margin-top: 60px;
+	background-color: #FFFFFF;
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 20;
+}
+.wrap .lose1 h3{
+	color: #00ADEE;
+	font-size: 20px;
+	margin-left: 15%;
+}
+/*防丢失解决方案*/
+.wrap .lose2{
+	width: 100%;
+	height: 558px;
+	padding-top: 200px;
+	background-image: url(../img/11.jpg);
+	background-size: 100% 100%;
+	margin-top: 120px;
+}
+.wrap .lose2 .content{
+	margin: 0 auto;
+}
+.wrap .lose2 .content h2{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.wrap .lose2 .content p{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+/*完整灵活的解决方案*/
+.wrap .lose3{
+	width: 100%;
+}
+.wrap .lose3 .content{
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+}
+/*全球解决方案*/
+.wrap .lose4{
+	width: 100%;
+	height: 520px;
+	padding-top: 80px;
+	background-image: url(../img/solution_section_two.jpg);
+	background-size: 100% 100%;
+}
+.wrap .lose4 .content{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.wrap .lose4 .content h2{
+	color: white;
+	margin-bottom: 25px;
+}
+.wrap .lose4 .content p{
+	color: white;
+}
+/*商业邀请*/
+.wrap .lose5{
+	width: 100%;
+	height: 520px;
+	padding-top: 80px;
+	background-image: url(../img/solution_section_three.jpg);
+	background-size: 100% 100%;
+}
+.wrap .lose5 .content{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.wrap .lose5 .content h2{
+	margin-bottom: 25px;
+}
+.wrap .lose5 .content p{
+	margin-bottom: 90px;
+}
+.wrap .lose5 .content .btn{
+	width: 200px;
+	height: 50px;
+	background-color: #00ADEE;
+	color: white;
+	font-size: 20px;
+	padding-top: 10px;
+	border-radius: 25px;
+}
+/*写邮件的样式*/
+.email{
+	width: 100%;
+	height: 800px;
+	background-color: black;
+	opacity: 0.8;
+	position: fixed;
+	top: 0;
+	left: 0;	
+	z-index: 30;
+	display: none;
+}
+#content{
+	width: 80%;
+	height: 540px;
+	background-color: white;
+	position: fixed;
+	top: 10%;
+	left: 12%;
+	z-index: 40;
+	overflow: hidden;
+	display: none;
+}
+#content h2{
+	width: 100%;
+	margin: 0px;
+	padding: 50px 0px 50px 50px;
+	background-image: url(../img/2Q==.jpg);
+	background-size: 100% 100%;
+}
+#content span{
+	font-size: 18px;
+	color: red;
+}
+#content p{
+	font-size: 20px;
+}
+#content label{
+	font-size: 18px;
+}
+#content .wrap{
+	width: 100%;
+	height: 420px;
+	padding-bottom: 50px;
+	overflow: scroll;
+	padding-left: 50px;
+	
+}
+#content .wrap input{
+	width: 750px;
+	height: 40px;
+	margin-bottom: 25px;
+}
+#content .wrap div{
+	display: inline-block;
+	margin-right: 50px;
+}
+#content .wrap div input{
+	width: 350px;
+}
+#content .wrap textarea{
+	width: 750px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+#content .wrap .btn_fs,.btn_fh{
+	width: 120px;
+	background-color: #E2E2E2;
+	text-align: center;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}
+#content .wrap .btn_fh:hover{
+	background-color: #00ADEE;
+}
+#content .wrap .btn_fs:hover{
+	background-color: #00ADEE;
+}
+#content .wrap .btn_fs{
+	margin-left: 50%;
+	margin-right: 20px;
+}
+#content .wrap .btn_fh a{
+	font-size: 20px;
+	color: white;
+}
+#content .wrap .btn_fs a{
+	font-size: 20px;
+	color: white;
+}

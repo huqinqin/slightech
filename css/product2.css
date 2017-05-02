@@ -1,0 +1,543 @@
+*{margin: 0;padding: 0;border: 0;}
+html,body{width: 100%;font-size: 15px;}
+
+/*最小1200*/
+@media only screen and (min-width: 1200px) {
+/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 55px;top: 65px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 270px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/sdeno_ban_bg.jpg);width: 100%;height: 100%;background-size: 100% 100%;}
+.up_img2{background-image: url(../img/sdeno_life.jpg);width: 100%;height: 100%;background-size: 100% 100%;}
+.u_word1{position: absolute;left: 30%;bottom: 470px;font-size: 4.5rem;color: black;}
+.u_hx{width: 250px;height: 1px;background-color: black;position: absolute;left: 29%;bottom: 440px;}
+.u_img1{position: absolute;bottom: -100px;left: 55%;}
+.u_img1 img{width: 90%;height: 80%;}
+.u_img2{width: 100%;height: 100%;}
+.u_word2{font-size: 1.1rem;position: absolute;left: 30%;bottom: 400px;}
+.u_word3{font-size: 4.1rem;color: white;position: absolute;top: 45%;left: 40%;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*SDENO小觅机器人*/
+.c_headFather{width: 100%;height: 680px;background-color: black;}
+.c_head{width: 1150px;height: 680px;margin: 0 auto;position: relative;}
+.h_img{position: absolute;left: 5px;top: 100px;}
+.h_img img{width: 90%;height: 90%;}
+.h_word1{font-size: 2.8rem;color: white;position: absolute;right: 120px;top: 230px;}
+.h_word2{font-size: 1.2rem;color: white;position: absolute;right: 210px;top: 290px;}
+.h_word3{font-size: 1.2rem;color: white;position: absolute;right: 300px;top: 320px;}
+.h_word4{font-size: 1.2rem;color: white;position: absolute;right: 130px;top: 350px;}
+
+/*第二个轮播图*/
+.c_center{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+/*.center_img1{background-image: url(../img/sdeno_ban_bg.jpg);width: 100%;height: 100%;background-size: 100% 100%;}*/
+.center_img2{background-image: url(../img/sdeno_ani_two.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: left;background-repeat: no-repeat;margin-top: 20px;}
+.center_img3{background-image: url(../img/sdeno_ani_three.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: right;background-repeat: no-repeat;margin-right: 0px;}
+.center_img4{background-image: url(../img/sdeno_ani_four.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: left;background-repeat: no-repeat;margin-top: 0px;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+.c_word1{position: absolute;left: 20%;top: 380px;font-size: 1.5rem;}
+.c_word2{position: absolute;left: 20%;top: 430px;font-size: 1.1rem;}
+.c_word3{position: absolute;left: 20%;top: 460px;font-size: 1.1rem;}
+.c_word4{position: absolute;left: 20%;top: 490px;font-size: 1.1rem;}
+.c_word5{position: absolute;left: 20%;top: 520px;font-size: 1.1rem;}
+.c_img1{position: absolute;left: 45%;}
+.c_img2{display: none;}
+.c_img3{display: none;}
+.c_img4{display: none;}
+
+.c_word6{position: absolute;left: 65%;top: 100px;font-size: 1.5rem;}
+.c_word7{position: absolute;left: 65%;top: 145px;font-size: 1.1rem;}
+.c_word8{position: absolute;left: 65%;top: 165px;font-size: 1.1rem;}
+.c_word9{position: absolute;left: 65%;top: 185px;font-size: 1.1rem;}
+.c_word10{position: absolute;left: 65%;top: 205px;font-size: 1.1rem;}
+.c_word11{position: absolute;left: 65%;top: 225px;font-size: 1.1rem;}
+.c_word12{position: absolute;left: 65%;top: 280px;font-size: 1.5rem;}
+.c_word13{position: absolute;left: 65%;top: 330px;font-size: 1.1rem;}
+.c_word14{position: absolute;left: 65%;top: 350px;font-size: 1.1rem;}
+.c_word15{position: absolute;left: 65%;top: 370px;font-size: 1.1rem;}
+
+.c_word16{position: absolute;left: 10%;top: 380px;font-size: 1.5rem;width: 200px;text-align: left;}
+.c_word17{position: absolute;left: 10%;top: 455px;font-size: 1.1rem;}
+.c_word18{position: absolute;left: 10%;top: 475px;font-size: 1.1rem;}
+.c_word19{position: absolute;left: 10%;top: 495px;font-size: 1.1rem;}
+
+.c_word20{position: absolute;left: 62%;top: 410px;font-size: 1.5rem;width: 250px;text-align: left;}
+.c_word21{position: absolute;left: 62%;top: 480px;font-size: 1.1rem;}
+.c_word22{position: absolute;left: 62%;top: 500px;font-size: 1.1rem;}
+.c_word23{position: absolute;left: 62%;top: 520px;font-size: 1.1rem;}
+.c_word24{position: absolute;left: 62%;top: 540px;font-size: 1.1rem;}
+.c_word25{position: absolute;left: 62%;top: 560px;font-size: 1.1rem;}
+.c_word26{position: absolute;left: 62%;top: 580px;font-size: 1.1rem;}
+
+/*功能不仅仅是*/
+.c_middle{width: 100%;height: 700px;background-image: url(../img/photo_sdeno.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.m_word1{position: absolute;left: 65%;top: 100px;font-size: 2.5rem;}
+.m_bg1{background-image: url(../img/sdeno_fun_icon.png);width: 52px;height: 55px;background-position: -10px -9px;position: absolute;left: 65%;top: 210px;}
+.m_word2{position: absolute;left: 64%;top: 290px;font-size: 0.8rem;}
+.m_bg2{background-image: url(../img/sdeno_fun_icon.png);width: 59px;height: 53px;background-position: -75px -9px;position: absolute;left: 75%;top: 210px;}
+.m_word3{position: absolute;left: 76%;top: 290px;font-size: 0.8rem;}
+.m_bg3{background-image: url(../img/sdeno_fun_icon.png);width: 55px;height: 55px;background-position: -8px -77px;position: absolute;left: 65%;top: 370px;}
+.m_word4{position: absolute;left: 66%;top: 450px;font-size: 0.8rem;}
+.m_bg4{background-image: url(../img/sdeno_fun_icon.png);width: 64px;height: 55px;background-position: -72px -77px;position: absolute;left: 75%;top: 370px;}
+.m_word5{position: absolute;left: 76%;top: 450px;font-size: 0.8rem;}
+
+/*更重要的是*/
+.c_foot{width: 100%;height: 700px;position: relative;background-color: rgb(248,248,248);}
+.f_img{width: 680px;height: 580px;background-image: url(../img/most_sdeno.png);position: absolute;left: 40%;top: 60px;}
+.f_word1{position: absolute;left: 15%;top: 130px;font-size: 2.5rem;}
+.f_bg1{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -6px -144px;position: absolute;left: 16%;top: 210px;}
+.f_word2{position: absolute;left: 15%;top: 290px;font-size: 0.8rem;}
+.f_bg2{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -75px -145px;position: absolute;left: 27%;top: 210px;}
+.f_word3{position: absolute;left: 26%;top: 290px;font-size: 0.8rem;}
+.f_bg3{background-image: url(../img/sdeno_fun_icon.png);width: 70px;height: 43px;background-position: 0px -223px;position: absolute;left: 16%;top: 340px;}
+.f_word4{position: absolute;left: 15%;top: 410px;font-size: 0.8rem;}
+.f_bg4{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -79px -219px;position: absolute;left: 27%;top: 340px;}
+.f_word5{position: absolute;left: 26%;top: 410px;font-size: 0.8rem;}
+
+/*商业应用*/
+.c_down{width: 100%;height: 700px;background-image: url(../img/sdeno_commercial.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.d_wordFather{width: 340px;height: 515px;background-color: rgba(75,127,143,0.9);position: absolute;right: 100px;top: 80px;}
+.d_word1{font-size: 2rem;color: white;margin-top: 50px;}
+.d_bg1{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: 0px 0px;margin-left: -160px;margin-top: 50px;}
+.d_word2{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.d_bg2{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px 0px;margin-top: -105px;margin-right: -160px;}
+.d_word3{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+.d_bg3{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: 0px -168px;margin-left: -160px;margin-top: 30px;}
+.d_word4{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+
+/*个人用户应用*/
+.c_end{width: 100%;height: 700px;background-image: url(../img/sdeno_consumer.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.e_wordFather{width: 340px;height: 515px;background-color: rgba(84,135,131,0.9);position: absolute;right: 100px;top: 80px;}
+.e_word1{font-size: 2rem;color: white;margin-top: 50px;}
+.e_bg1{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -1px -84px;margin-left: -160px;margin-top: 50px;}
+.e_word2{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.e_bg2{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px -84px;margin-top: -105px;margin-right: -160px;}
+.e_word3{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+.e_bg3{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -1px -254px;margin-left: -160px;margin-top: 30px;}
+.e_word4{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.e_bg4{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px -169px;margin-right: -160px;margin-top: -110px;}
+.e_word5{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+}
+/*1000~1200*/
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 55px;top: 65px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 270px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/sdeno_ban_bg.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.up_img2{background-image: url(../img/sdeno_life.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.u_word1{position: absolute;left: 21%;bottom: 470px;font-size: 4.5rem;color: black;}
+.u_hx{width: 230px;height: 1px;background-color: black;position: absolute;left: 20%;bottom: 440px;}
+.u_img1{position: absolute;bottom: -100px;left: 50%;}
+.u_img1 img{width: 90%;height: 80%;}
+.u_img2{width: 100%;height: 100%;}
+.u_word2{font-size: 1.1rem;position: absolute;left: 21%;bottom: 400px;}
+.u_word3{font-size: 4rem;color: white;position: absolute;top: 45%;left: 35%;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*SDENO小觅机器人*/
+.c_headFather{width: 100%;height: 680px;background-color: black;}
+.c_head{width: 1000px;height: 680px;margin: 0 auto;position: relative;}
+.h_img{position: absolute;left: 5px;top: 100px;}
+.h_img img{width: 90%;height: 90%;}
+.h_word1{font-size: 2.8rem;color: white;position: absolute;right: 120px;top: 230px;}
+.h_word2{font-size: 1.2rem;color: white;position: absolute;right: 210px;top: 290px;}
+.h_word3{font-size: 1.2rem;color: white;position: absolute;right: 300px;top: 320px;}
+.h_word4{font-size: 1.2rem;color: white;position: absolute;right: 130px;top: 350px;}
+
+/*第二个轮播图*/
+.c_center{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+
+.center_img2{background-image: url(../img/sdeno_ani_two.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: left;background-repeat: no-repeat;margin-top: 20px;}
+.center_img3{background-image: url(../img/sdeno_ani_three.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: right;background-repeat: no-repeat;margin-right: 0px;}
+.center_img4{background-image: url(../img/sdeno_ani_four.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: left;background-repeat: no-repeat;margin-top: 0px;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+.c_word1{position: absolute;left: 20%;top: 380px;font-size: 1.5rem;}
+.c_word2{position: absolute;left: 20%;top: 430px;font-size: 1.1rem;}
+.c_word3{position: absolute;left: 20%;top: 460px;font-size: 1.1rem;}
+.c_word4{position: absolute;left: 20%;top: 490px;font-size: 1.1rem;}
+.c_word5{position: absolute;left: 20%;top: 520px;font-size: 1.1rem;}
+.c_img1{position: absolute;left: 45%;}
+.c_img2{display: none;}
+.c_img3{display: none;}
+.c_img4{display: none;}
+
+.c_word6{position: absolute;left: 65%;top: 100px;font-size: 1.5rem;}
+.c_word7{position: absolute;left: 65%;top: 145px;font-size: 1.1rem;}
+.c_word8{position: absolute;left: 65%;top: 165px;font-size: 1.1rem;}
+.c_word9{position: absolute;left: 65%;top: 185px;font-size: 1.1rem;}
+.c_word10{position: absolute;left: 65%;top: 205px;font-size: 1.1rem;}
+.c_word11{position: absolute;left: 65%;top: 225px;font-size: 1.1rem;}
+.c_word12{position: absolute;left: 65%;top: 280px;font-size: 1.5rem;}
+.c_word13{position: absolute;left: 65%;top: 330px;font-size: 1.1rem;}
+.c_word14{position: absolute;left: 65%;top: 350px;font-size: 1.1rem;}
+.c_word15{position: absolute;left: 65%;top: 370px;font-size: 1.1rem;}
+
+.c_word16{position: absolute;left: 10%;top: 380px;font-size: 1.5rem;width: 200px;text-align: left;}
+.c_word17{position: absolute;left: 10%;top: 455px;font-size: 1.1rem;}
+.c_word18{position: absolute;left: 10%;top: 475px;font-size: 1.1rem;}
+.c_word19{position: absolute;left: 10%;top: 495px;font-size: 1.1rem;}
+
+.c_word20{position: absolute;left: 62%;top: 410px;font-size: 1.5rem;width: 250px;text-align: left;}
+.c_word21{position: absolute;left: 62%;top: 480px;font-size: 1.1rem;}
+.c_word22{position: absolute;left: 62%;top: 500px;font-size: 1.1rem;}
+.c_word23{position: absolute;left: 62%;top: 520px;font-size: 1.1rem;}
+.c_word24{position: absolute;left: 62%;top: 540px;font-size: 1.1rem;}
+.c_word25{position: absolute;left: 62%;top: 560px;font-size: 1.1rem;}
+.c_word26{position: absolute;left: 62%;top: 580px;font-size: 1.1rem;}
+
+/*功能不仅仅是*/
+.c_middle{width: 100%;height: 700px;background-image: url(../img/photo_sdeno.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.m_word1{position: absolute;left: 65%;top: 100px;font-size: 2.5rem;}
+.m_bg1{background-image: url(../img/sdeno_fun_icon.png);width: 52px;height: 55px;background-position: -10px -9px;position: absolute;left: 65%;top: 210px;}
+.m_word2{position: absolute;left: 64%;top: 290px;font-size: 0.8rem;}
+.m_bg2{background-image: url(../img/sdeno_fun_icon.png);width: 59px;height: 53px;background-position: -75px -9px;position: absolute;left: 75%;top: 210px;}
+.m_word3{position: absolute;left: 76%;top: 290px;font-size: 0.8rem;}
+.m_bg3{background-image: url(../img/sdeno_fun_icon.png);width: 55px;height: 55px;background-position: -8px -77px;position: absolute;left: 65%;top: 370px;}
+.m_word4{position: absolute;left: 66%;top: 450px;font-size: 0.8rem;}
+.m_bg4{background-image: url(../img/sdeno_fun_icon.png);width: 64px;height: 55px;background-position: -72px -77px;position: absolute;left: 75%;top: 370px;}
+.m_word5{position: absolute;left: 76%;top: 450px;font-size: 0.8rem;}
+
+/*更重要的是*/
+.c_foot{width: 100%;height: 700px;position: relative;background-color: rgb(248,248,248);}
+.f_img{width: 680px;height: 580px;background-image: url(../img/most_sdeno.png);position: absolute;left: 40%;top: 60px;}
+.f_word1{position: absolute;left: 15%;top: 130px;font-size: 2.5rem;}
+.f_bg1{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -6px -144px;position: absolute;left: 16%;top: 210px;}
+.f_word2{position: absolute;left: 15%;top: 290px;font-size: 0.8rem;}
+.f_bg2{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -75px -145px;position: absolute;left: 27%;top: 210px;}
+.f_word3{position: absolute;left: 26%;top: 290px;font-size: 0.8rem;}
+.f_bg3{background-image: url(../img/sdeno_fun_icon.png);width: 70px;height: 43px;background-position: 0px -223px;position: absolute;left: 16%;top: 340px;}
+.f_word4{position: absolute;left: 15%;top: 410px;font-size: 0.8rem;}
+.f_bg4{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -79px -219px;position: absolute;left: 27%;top: 340px;}
+.f_word5{position: absolute;left: 26%;top: 410px;font-size: 0.8rem;}
+
+/*商业应用*/
+.c_down{width: 100%;height: 700px;background-image: url(../img/sdeno_commercial.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.d_wordFather{width: 340px;height: 515px;background-color: rgba(75,127,143,0.9);position: absolute;right: 100px;top: 80px;}
+.d_word1{font-size: 2rem;color: white;margin-top: 50px;}
+.d_bg1{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: 0px 0px;margin-left: -160px;margin-top: 50px;}
+.d_word2{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.d_bg2{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px 0px;margin-top: -105px;margin-right: -160px;}
+.d_word3{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+.d_bg3{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: 0px -168px;margin-left: -160px;margin-top: 30px;}
+.d_word4{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+
+/*个人用户应用*/
+.c_end{width: 100%;height: 700px;background-image: url(../img/sdeno_consumer.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.e_wordFather{width: 340px;height: 515px;background-color: rgba(84,135,131,0.9);position: absolute;right: 100px;top: 80px;}
+.e_word1{font-size: 2rem;color: white;margin-top: 50px;}
+.e_bg1{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -1px -84px;margin-left: -160px;margin-top: 50px;}
+.e_word2{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.e_bg2{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px -84px;margin-top: -105px;margin-right: -160px;}
+.e_word3{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+.e_bg3{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -1px -254px;margin-left: -160px;margin-top: 30px;}
+.e_word4{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.e_bg4{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px -169px;margin-right: -160px;margin-top: -110px;}
+.e_word5{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+	/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 55px;top: 65px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 270px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/sdeno_ban_bg.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.up_img2{background-image: url(../img/sdeno_life.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.u_word1{position: absolute;left: 15%;bottom: 470px;font-size: 4.5rem;color: black;}
+.u_hx{width: 200px;height: 1px;background-color: black;position: absolute;left: 14%;bottom: 440px;}
+.u_img1{position: absolute;bottom: -100px;left: 45%;}
+.u_img1 img{width: 80%;height: 80%;}
+.u_img2{width: 100%;height: 100%;}
+.u_word2{font-size: 1.1rem;position: absolute;left: 15%;bottom: 400px;}
+.u_word3{font-size: 4rem;color: white;position: absolute;top: 45%;left: 35%;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*SDENO小觅机器人*/
+.c_headFather{width: 100%;height: 680px;background-color: black;}
+.c_head{width: 750px;height: 680px;margin: 0 auto;position: relative;}
+.h_img{position: absolute;left: -80px;top: 100px;}
+.h_img img{width: 70%;height: 70%;}
+.h_word1{font-size: 2.8rem;color: white;position: absolute;right: 40px;top: 230px;}
+.h_word2{font-size: 1.2rem;color: white;position: absolute;right: 100px;top: 290px;}
+.h_word3{font-size: 1.2rem;color: white;position: absolute;right: 160px;top: 320px;}
+.h_word4{font-size: 1.2rem;color: white;position: absolute;right: 40px;top: 350px;}
+
+/*第二个轮播图*/
+.c_center{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+
+.center_img2{background-image: url(../img/sdeno_ani_two.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: left;background-repeat: no-repeat;margin-top: 20px;}
+.center_img3{background-image: url(../img/sdeno_ani_three.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: right;background-repeat: no-repeat;margin-right: 0px;}
+.center_img4{background-image: url(../img/sdeno_ani_four.jpg);width: 100%;height:100%;/*background-size: 100% 100%;*/background-position: left;background-repeat: no-repeat;margin-top: 0px;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+.c_word1{position: absolute;left: 20%;top: 380px;font-size: 1.5rem;}
+.c_word2{position: absolute;left: 20%;top: 430px;font-size: 1.1rem;}
+.c_word3{position: absolute;left: 20%;top: 460px;font-size: 1.1rem;}
+.c_word4{position: absolute;left: 20%;top: 490px;font-size: 1.1rem;}
+.c_word5{position: absolute;left: 20%;top: 520px;font-size: 1.1rem;}
+.c_img1{position: absolute;left: 45%;}
+.c_img2{display: none;}
+.c_img3{display: none;}
+.c_img4{display: none;}
+
+.c_word6{position: absolute;left: 55%;top: 100px;font-size: 1.5rem;}
+.c_word7{position: absolute;left: 55%;top: 145px;font-size: 1.1rem;}
+.c_word8{position: absolute;left: 55%;top: 165px;font-size: 1.1rem;}
+.c_word9{position: absolute;left: 55%;top: 185px;font-size: 1.1rem;}
+.c_word10{position: absolute;left: 55%;top: 205px;font-size: 1.1rem;}
+.c_word11{position: absolute;left: 55%;top: 225px;font-size: 1.1rem;}
+.c_word12{position: absolute;left: 55%;top: 280px;font-size: 1.5rem;}
+.c_word13{position: absolute;left: 55%;top: 330px;font-size: 1.1rem;}
+.c_word14{position: absolute;left: 55%;top: 350px;font-size: 1.1rem;}
+.c_word15{position: absolute;left: 55%;top: 370px;font-size: 1.1rem;}
+
+.c_word16{position: absolute;left: 10%;top: 380px;font-size: 1.5rem;width: 200px;text-align: left;}
+.c_word17{position: absolute;left: 10%;top: 455px;font-size: 1.1rem;}
+.c_word18{position: absolute;left: 10%;top: 475px;font-size: 1.1rem;}
+.c_word19{position: absolute;left: 10%;top: 495px;font-size: 1.1rem;}
+
+.c_word20{position: absolute;left: 62%;top: 410px;font-size: 1.5rem;width: 250px;text-align: left;}
+.c_word21{position: absolute;left: 62%;top: 480px;font-size: 1.1rem;}
+.c_word22{position: absolute;left: 62%;top: 500px;font-size: 1.1rem;}
+.c_word23{position: absolute;left: 62%;top: 520px;font-size: 1.1rem;}
+.c_word24{position: absolute;left: 62%;top: 540px;font-size: 1.1rem;}
+.c_word25{position: absolute;left: 62%;top: 560px;font-size: 1.1rem;}
+.c_word26{position: absolute;left: 62%;top: 580px;font-size: 1.1rem;}
+
+/*功能不仅仅是*/
+.c_middle{width: 100%;height: 700px;background-image: url(../img/photo_sdeno.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.m_word1{position: absolute;left: 50%;top: 100px;font-size: 2.5rem;}
+.m_bg1{background-image: url(../img/sdeno_fun_icon.png);width: 52px;height: 55px;background-position: -10px -9px;position: absolute;left: 50%;top: 210px;}
+.m_word2{position: absolute;left: 49%;top: 290px;font-size: 0.8rem;}
+.m_bg2{background-image: url(../img/sdeno_fun_icon.png);width: 59px;height: 53px;background-position: -75px -9px;position: absolute;left: 65%;top: 210px;}
+.m_word3{position: absolute;left: 66%;top: 290px;font-size: 0.8rem;}
+.m_bg3{background-image: url(../img/sdeno_fun_icon.png);width: 55px;height: 55px;background-position: -8px -77px;position: absolute;left: 50%;top: 370px;}
+.m_word4{position: absolute;left: 51%;top: 450px;font-size: 0.8rem;}
+.m_bg4{background-image: url(../img/sdeno_fun_icon.png);width: 64px;height: 55px;background-position: -72px -77px;position: absolute;left: 65%;top: 370px;}
+.m_word5{position: absolute;left: 66%;top: 450px;font-size: 0.8rem;}
+
+/*更重要的是*/
+.c_foot{width: 100%;height: 700px;position: relative;background-color: rgb(248,248,248);}
+.f_img{width: 680px;height: 580px;background-image: url(../img/most_sdeno.png);position: absolute;left: 30%;top: 60px;}
+.f_word1{position: absolute;left: 5%;top: 130px;font-size: 2.5rem;}
+.f_bg1{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -6px -144px;position: absolute;left: 6%;top: 210px;}
+.f_word2{position: absolute;left: 5%;top: 290px;font-size: 0.8rem;}
+.f_bg2{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -75px -145px;position: absolute;left: 22%;top: 210px;}
+.f_word3{position: absolute;left: 21%;top: 290px;font-size: 0.8rem;}
+.f_bg3{background-image: url(../img/sdeno_fun_icon.png);width: 70px;height: 43px;background-position: 0px -223px;position: absolute;left: 6%;top: 340px;}
+.f_word4{position: absolute;left: 5%;top: 410px;font-size: 0.8rem;}
+.f_bg4{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -79px -219px;position: absolute;left: 22%;top: 340px;}
+.f_word5{position: absolute;left: 20%;top: 410px;font-size: 0.8rem;}
+
+/*商业应用*/
+.c_down{width: 100%;height: 700px;background-image: url(../img/sdeno_commercial.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.d_wordFather{width: 340px;height: 515px;background-color: rgba(75,127,143,0.9);position: absolute;right: 100px;top: 80px;}
+.d_word1{font-size: 2rem;color: white;margin-top: 50px;}
+.d_bg1{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: 0px 0px;margin-left: -160px;margin-top: 50px;}
+.d_word2{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.d_bg2{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px 0px;margin-top: -105px;margin-right: -160px;}
+.d_word3{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+.d_bg3{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: 0px -168px;margin-left: -160px;margin-top: 30px;}
+.d_word4{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+
+/*个人用户应用*/
+.c_end{width: 100%;height: 700px;background-image: url(../img/sdeno_consumer.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.e_wordFather{width: 340px;height: 515px;background-color: rgba(84,135,131,0.9);position: absolute;right: 100px;top: 80px;}
+.e_word1{font-size: 2rem;color: white;margin-top: 50px;}
+.e_bg1{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -1px -84px;margin-left: -160px;margin-top: 50px;}
+.e_word2{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.e_bg2{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px -84px;margin-top: -105px;margin-right: -160px;}
+.e_word3{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+.e_bg3{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -1px -254px;margin-left: -160px;margin-top: 30px;}
+.e_word4{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.e_bg4{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px -169px;margin-right: -160px;margin-top: -110px;}
+.e_word5{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+	/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 55px;top: 55px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 5px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/sdeno_ban_bg.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.up_img2{background-image: url(../img/sdeno_life.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.u_word1{position: absolute;left: 43%;top: 50px;font-size: 4.5rem;color: black;}
+.u_hx{width: 200px;height: 1px;background-color: black;position: absolute;left: 39%;top: 120px;}
+.u_img1{position: absolute;bottom: -100px;left: 18%;}
+.u_img1 img{width: 70%;height: 80%;}
+.u_img2{width: 100%;height: 100%;}
+.u_word2{font-size: 1.1rem;position: absolute;left: 42%;top: 140px;}
+.u_word3{font-size: 4rem;color: white;position: absolute;top: 45%;left: 25%;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*SDENO小觅机器人*/
+.c_headFather{width: 100%;height: 680px;background-color: black;}
+.c_head{width: 100%;height: 680px;margin: 0 auto;position: relative;}
+.h_img{position: absolute;left: 8%;top: 200px;}
+.h_img img{width: 60%;height: 60%;}
+.h_word1{font-size: 2.8rem;color: white;position: absolute;left: 35%;top: 30px;}
+.h_word2{font-size: 1.2rem;color: white;position: absolute;left: 42%;top: 90px;}
+.h_word3{font-size: 1.2rem;color: white;position: absolute;left: 50%;top: 120px;}
+.h_word4{font-size: 1.2rem;color: white;position: absolute;left: 34%;top: 150px;}
+
+/*第二个轮播图*/
+.c_center{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+.c_wordFather1{width: 100%;height: 350px;background-color: rgb(238,238,238);}
+.c_wordFather2{width: 100%;height: 350px;background-color: rgb(238,238,238);}
+.c_wordFather3{width: 100%;height: 350px;background-color: rgb(238,238,238);}
+.c_wordFather4{width: 100%;height: 350px;background-color: rgb(238,238,238);}
+.c_img1{width: 100%;height: 350px;}
+.c_img1 img{width: 90%;height: 100%;}
+.c_img2{width: 100%;height: 350px;}
+.c_img2 img{width: 90%;height: 100%;}
+.c_img3{width: 100%;height: 350px;}
+.c_img3 img{width: 90%;height: 100%;}
+.c_img4{width: 100%;height: 350px;}
+.c_img4 img{width: 90%;height: 100%;}
+
+.c_word1{padding-top: 20px;font-size: 2.5rem;}
+.c_word2{margin-top: 20px;font-size: 1.5rem;}
+.c_word3{margin-top: 10px;font-size: 1.5rem;}
+.c_word4{margin-top: 10px;font-size: 1.5rem;}
+.c_word5{margin-top: 10px;font-size: 1.5rem;}
+
+.c_word6{font-size: 2.5rem;padding-top: 20px;}
+.c_word7{font-size: 1.3rem;}
+.c_word8{font-size: 1.3rem;margin-top: -5px;}
+.c_word9{font-size: 1.3rem;margin-top: -5px;}
+.c_word10{font-size: 1.3rem;margin-top: -5px;}
+.c_word11{font-size: 1.3rem;margin-top: -5px;}
+.c_word12{font-size: 2.5rem;padding-top: 10px;}
+.c_word13{font-size: 1.3rem;}
+.c_word14{font-size: 1.3rem;margin-top: -5px;}
+.c_word15{font-size: 1.3rem;margin-top: -5px;}
+.c_word16{font-size: 2.5rem;padding-top: 20px;width: 200px;text-align: left;}
+.c_word17{font-size: 1.5rem;margin-top: 40px;}
+.c_word18{font-size: 1.5rem;margin-top: -5px;}
+.c_word19{font-size: 1.5rem;margin-top: -5px;}
+.c_word20{font-size: 2.5rem;padding-top: 20px;width: 200px;text-align: left;}
+.c_word21{font-size: 1.5rem;margin-top: 40px;}
+.c_word22{font-size: 1.5rem;margin-top: -5px;}
+.c_word23{font-size: 1.5rem;margin-top: -5px;}
+.c_word24{font-size: 1.5rem;margin-top: -5px;}
+.c_word25{font-size: 1.5rem;margin-top: -5px;}
+.c_word26{font-size: 1.5rem;margin-top: -5px;}
+
+/*功能不仅仅是*/
+.c_middle{width: 100%;height: 700px;background-image: url(../img/photo_sdeno.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.m_word1{position: absolute;left: 20%;top: 400px;font-size: 2.5rem;}
+.m_bg1{background-image: url(../img/sdeno_fun_icon.png);width: 52px;height: 55px;background-position: -10px -9px;position: absolute;left: 25%;top: 460px;}
+.m_word2{position: absolute;left: 24%;top: 530px;font-size: 0.8rem;}
+.m_bg2{background-image: url(../img/sdeno_fun_icon.png);width: 59px;height: 53px;background-position: -75px -9px;position: absolute;left: 45%;top: 460px;}
+.m_word3{position: absolute;left: 46%;top: 530px;font-size: 0.8rem;}
+.m_bg3{background-image: url(../img/sdeno_fun_icon.png);width: 55px;height: 55px;background-position: -8px -77px;position: absolute;left: 25%;top: 570px;}
+.m_word4{position: absolute;left: 26%;top: 650px;font-size: 0.8rem;}
+.m_bg4{background-image: url(../img/sdeno_fun_icon.png);width: 64px;height: 55px;background-position: -72px -77px;position: absolute;left: 45%;top: 570px;}
+.m_word5{position: absolute;left: 46%;top: 650px;font-size: 0.8rem;}
+
+/*更重要的是*/
+.c_foot{width: 100%;height: 700px;position: relative;background-color: rgb(248,248,248);}
+.f_img{width:  100%;height: 350px;background-image: url(../img/most_sdeno.png);background-size: 100% 100%;}
+.f_word{width: 100%;height: 350px;background-color: rgb(238,238,238);position: absolute;top: 350px;}
+.f_word1{position: absolute;left: 37%;top: 30px;font-size: 2.5rem;}
+.f_bg1{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -6px -144px;position: absolute;left: 25%;top: 100px;}
+.f_word2{position: absolute;left: 23%;top: 180px;font-size: 0.8rem;}
+.f_bg2{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -75px -145px;position: absolute;left: 57%;top: 100px;}
+.f_word3{position: absolute;left: 56%;top: 180px;font-size: 0.8rem;}
+.f_bg3{background-image: url(../img/sdeno_fun_icon.png);width: 70px;height: 43px;background-position: 0px -223px;position: absolute;left: 25%;top: 230px;}
+.f_word4{position: absolute;left: 23%;top: 300px;font-size: 0.8rem;}
+.f_bg4{background-image: url(../img/sdeno_fun_icon.png);width: 58px;height: 58px;background-position: -79px -219px;position: absolute;left: 57%;top: 230px;}
+.f_word5{position: absolute;left: 53%;top: 300px;font-size: 0.8rem;}
+
+/*商业应用*/
+.c_down{width: 100%;height: 700px;background-image: url(../img/sdeno_commercial.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.d_wordFather{width: 340px;height: 515px;background-color: rgba(75,127,143,0.9);position: absolute;right: 15px;top: 80px;}
+.d_word1{font-size: 2rem;color: white;margin-top: 50px;}
+.d_bg1{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: 0px 0px;margin-left: -160px;margin-top: 50px;}
+.d_word2{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.d_bg2{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px 0px;margin-top: -105px;margin-right: -160px;}
+.d_word3{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+.d_bg3{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: 0px -168px;margin-left: -160px;margin-top: 30px;}
+.d_word4{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+
+/*个人用户应用*/
+.c_end{width: 100%;height: 700px;background-image: url(../img/sdeno_consumer.jpg);background-position: center;background-repeat: no-repeat;position: relative;}
+.e_wordFather{width: 340px;height: 515px;background-color: rgba(84,135,131,0.9);position: absolute;right: 15px;top: 80px;}
+.e_word1{font-size: 2rem;color: white;margin-top: 50px;}
+.e_bg1{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -1px -84px;margin-left: -160px;margin-top: 50px;}
+.e_word2{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.e_bg2{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px -84px;margin-top: -105px;margin-right: -160px;}
+.e_word3{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+.e_bg3{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -1px -254px;margin-left: -160px;margin-top: 30px;}
+.e_word4{font-size: 0.8rem;color: white;margin-left: -160px;margin-top: 20px;}
+.e_bg4{background-image: url(../img/sdeno_more_icon.png);width: 76px;height: 76px;background-position: -103px -169px;margin-right: -160px;margin-top: -110px;}
+.e_word5{font-size: 0.8rem;color: white;margin-right: -160px;margin-top: 20px;}
+
+}

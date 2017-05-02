@@ -1,0 +1,82 @@
+html,body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 90%;
+	max-width: 1200px;
+	min-width: 280px;
+	margin: 0 auto;
+	border: 1px solid #EFEFEF;
+	margin-top: 80px;
+}
+.wrap h3{
+	width: 90%;
+	margin: 0 auto;
+	min-width: 300px;
+	padding: 20px 30px 20px 0px;
+	font-size: 25px;
+	border-bottom: 1px solid #EFEFEF;
+	margin-bottom: 20px;
+}
+.wrap .imgo{
+	display: block;
+	width: 90%;
+	max-width: 1000px;
+	min-width: 280px;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	margin-bottom: 15px;
+}
+.wrap .img2{
+	display: block;
+	width: 90%;
+	max-width: 600px;
+	background-size: 100% 100%;
+	margin-bottom: 15px;
+	margin-left: 3%;
+}
+.wrap .img3{
+	display: block;
+	width: 90%;
+	max-width: 600px;
+	background-size: 100% 100%;
+	margin-bottom: 15px;
+	margin-left: 3%;
+}
+.wrap .img4{
+	display: block;
+	width: 90%;
+	max-width: 600px;
+	background-size: 100% 100%;
+	margin-bottom: 15px;
+	margin-left: 30px;
+}
+.wrap .img5{
+	display: block;
+	width: 90%;
+	max-width: 800px;
+	background-size: 100% 100%;
+	margin-bottom: 15px;
+	margin-left: 30px;
+}
+
+.wrap p{
+	padding: 0px 30px 0px 30px;
+	line-height: 20px;
+}
+
+.wrap hr{
+	border: 1px solid #EFEFEF;
+}
+.wrap .time{
+	width: 100%;
+	padding: 5px 25px 20px 25px;
+	position: relative;
+}
+.wrap .time img{
+	position: absolute;
+	top: 0px;
+	right: 80px;
+}

@@ -1,0 +1,293 @@
+*{margin: 0;padding: 0;border: 0;}
+html,body{width: 100%;font-size: 15px;}
+/*最小1200*/
+@media only screen and (min-width: 1200px) {
+	/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 55px;top: 65px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 270px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/slide-01.jpg);width: 100%;height: 100%;background-size: 100% 100%;}
+.up_img2{background-image: url(../img/slide-02.jpg);width: 100%;height: 100%;background-size: 100% 100%;}
+.u_word1{position: absolute;left: 180px;bottom: 170px;font-size: 2.5rem;color: white;width: 600px;height: 100px;line-height: 50px;text-align: left;}
+.u_img1{position: absolute;left: 180px;bottom: 90px;}
+.u_img2{position: absolute;left: 450px;bottom: 90px;}
+.u_word2{font-size: 1.8rem;position: absolute;right: 11%;bottom: 180px;}
+.u_word2 a{color: white;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*私生活App*/
+.c_headFather{width: 100%;height: 482px;background-color: rgb(80,170,244);}
+.c_head{width: 1150px;height: 480px;margin: 0 auto;position: relative;}
+.app{position: absolute;left: 40%;top: 15px;font-size: 3.5rem;color: white;}
+.c_head .word1{position: absolute;left: 20px;right: 20px;top: 90px;font-size: 2.5rem;color: white;text-align: left;line-height: 55px;}
+.c_head .img{position: absolute;left: 25px;right: 20px;top: 210px;}
+.c_head .img img{width: 100%;height: 120%;}
+.c_head .word2{position: absolute;left: 130px;top: 400px;font-size: 1.6rem;color: white;}
+
+/*自动记录和识别*/
+.c_centerFather{width: 100%;height: 215px;background-color: rgb(255,255,255);}
+.c_center{width: 1150px;height: 215px;margin: 0 auto;position: relative;}
+.c_word1{position: absolute;top: 80px;font-size: 2.3rem;left: 40%;}
+.c_word2{position: absolute;top: 140px;font-size: 1.8rem;left: 42%;}
+
+/*简单而华丽的界面*/
+.c_middleFather{width: 100%;height: 900px;background-color: rgb(245,245,245);}
+.c_middle{width: 1150px;height: 900px;margin: 0 auto;position: relative;}
+.m_img1{position: absolute;left: -70px;top: 40px;}
+.m_img1 img{width: 75%;height: 75%;}
+.m_img2{position: absolute;left: 320px;top: 40px;}
+.m_img2 img{width: 75%;height: 75%;}
+.m_img3{position: absolute;right: -70px;top: 40px;}
+.m_img3 img{width: 75%;height: 75%;}
+.m_word{position: absolute;top: 770px;left: 440px;font-size: 2.2rem;}
+
+/*更多惊喜*/
+.c_footFather{width: 100%;height: 185px;background-color: rgb(149,198,17);}
+.c_foot{width: 1150px;height: 185px;margin: 0 auto;position: relative;}
+.f_word{position: absolute;left: 28%;top: 90px;font-size: 2.5rem;color: white;}
+}
+
+
+/*1000~1200*/
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 55px;top: 65px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 270px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/slide-01.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.up_img2{background-image: url(../img/slide-02.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.u_word1{position: absolute;left: 180px;bottom: 170px;font-size: 2.5rem;color: white;width: 600px;height: 100px;line-height: 50px;text-align: left;}
+.u_img1{position: absolute;left: 180px;bottom: 90px;}
+.u_img2{position: absolute;left: 450px;bottom: 90px;}
+.u_word2{font-size: 1.1rem;position: absolute;right: 11%;bottom: 40%;}
+.u_word2 a{color: white;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*私生活App*/
+.c_headFather{width: 100%;height: 482px;background-color: rgb(80,170,244);}
+.c_head{width: 1000px;height: 480px;margin: 0 auto;position: relative;}
+.app{position: absolute;left: 35%;top: 15px;font-size: 3.5rem;color: white;}
+.c_head .word1{position: absolute;left: 20px;right: 20px;top: 90px;font-size: 2.5rem;color: white;text-align: left;line-height: 55px;}
+.c_head .img{position: absolute;left: 25px;right: 20px;top: 250px;}
+.c_head .img img{width: 90%;height: 100%;}
+.c_head .word2{position: absolute;left: 80px;top: 400px;font-size: 1.6rem;color: white;}
+
+/*自动记录和识别*/
+.c_centerFather{width: 100%;height: 215px;background-color: rgb(255,255,255);}
+.c_center{width: 1000px;height: 215px;margin: 0 auto;position: relative;}
+.c_word1{position: absolute;top: 80px;font-size: 2.3rem;left: 40%;}
+.c_word2{position: absolute;top: 140px;font-size: 1.8rem;left: 42%;}
+
+/*简单而华丽的界面*/
+.c_middleFather{width: 100%;height: 800px;background-color: rgb(245,245,245);}
+.c_middle{width: 1000px;height: 800px;margin: 0 auto;position: relative;}
+.m_img1{position: absolute;left: -70px;top: 40px;}
+.m_img1 img{width: 65%;height: 65%;}
+.m_img2{position: absolute;left: 260px;top: 40px;}
+.m_img2 img{width: 65%;height: 65%;}
+.m_img3{position: absolute;right: -70px;top: 40px;}
+.m_img3 img{width: 65%;height: 65%;}
+.m_word{position: absolute;top: 680px;left: 380px;font-size: 2.2rem;}
+
+/*更多惊喜*/
+.c_footFather{width: 100%;height: 185px;background-color: rgb(149,198,17);}
+.c_foot{width: 1000px;height: 185px;margin: 0 auto;position: relative;}
+.f_word{position: absolute;left: 28%;top: 90px;font-size: 2.5rem;color: white;}
+}
+
+/*  800~1000*/
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+	/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 55px;top: 65px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 30px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/slide-01.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.up_img2{background-image: url(../img/slide-02.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.u_word1{position: absolute;left: 180px;bottom: 170px;font-size: 1.6rem;color: white;width: 400px;height: 100px;line-height: 50px;text-align: left;}
+.u_img1{position: absolute;left: 180px;bottom: 90px;}
+.u_img2{position: absolute;left: 450px;bottom: 90px;}
+.u_word2{font-size: 1.1rem;position: absolute;right: 11%;bottom: 40%;}
+.u_word2 a{color: white;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*私生活App*/
+.c_headFather{width: 100%;height: 312px;background-color: rgb(80,170,244);}
+.c_head{width: 850px;height: 310px;margin: 0 auto;position: relative;}
+.app{position: absolute;left: 40%;top: 25px;font-size: 1.9rem;color: white;}
+.c_head .word1{position: absolute;left: 20px;right: 20px;top: 80px;font-size: 1.5rem;color: white;text-align: left;line-height: 25px;}
+.c_head .img{position: absolute;left: 20px;right: 20px;top: 140px;}
+.c_head .img img{width: 90%;height: 100%;}
+.c_head .word2{position: absolute;left: 100px;top: 250px;font-size: 1.2rem;color: white;}
+
+/*自动记录和识别*/
+.c_centerFather{width: 100%;height: 145px;background-color: rgb(255,255,255);}
+.c_center{width: 850px;height: 145px;margin: 0 auto;position: relative;}
+.c_word1{position: absolute;top: 40px;font-size: 1.9rem;left: 40%;}
+.c_word2{position: absolute;top: 80px;font-size: 1.4rem;left: 42%;}
+
+/*简单而华丽的界面*/
+.c_middleFather{width: 100%;height: 560px;background-color: rgb(245,245,245);}
+.c_middle{width: 850px;height: 560px;margin: 0 auto;position: relative;}
+.m_img1{position: absolute;left: -70px;top: 30px;}
+.m_img1 img{width: 45%;height: 45%;}
+.m_img2{position: absolute;left: 170px;top: 30px;}
+.m_img2 img{width: 45%;height: 45%;}
+.m_img3{position: absolute;right: -70px;top: 30px;}
+.m_img3 img{width: 45%;height: 45%;}
+.m_word{position: absolute;top: 470px;left: 315px;font-size: 1.7rem;}
+
+/*更多惊喜*/
+.c_footFather{width: 100%;height: 115px;background-color: rgb(149,198,17);}
+.c_foot{width: 850px;height: 115px;margin: 0 auto;position: relative;}
+.f_word{position: absolute;left: 30%;top: 40px;font-size: 1.9rem;color: white;}
+}
+
+
+/*600~800*/
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+	/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 65px;top: 65px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 30px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/slide-01.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.up_img2{background-image: url(../img/slide-02.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.u_word1{position: absolute;left: 100px;bottom: 90px;font-size: 1.2rem;color: white;width: 290px;height: 60px;line-height: 30px;text-align: left;}
+.u_img1{position: absolute;left: 45px;bottom: 50px;}
+.u_img1 img{width: 50%;height: 50%;}
+.u_img2{position: absolute;left: 180px;bottom: 50px;}
+.u_img2 img{width: 50%;height: 50%;}
+.u_word2{font-size: 0.8rem;position: absolute;right: 11%;bottom: 40%;}
+.u_word2 a{color: white;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*私生活App*/
+.c_headFather{width: 100%;height:245px;background-color: rgb(80,170,244);}
+.c_head{width: 100%;height: 245px;margin: 0 auto;position: relative;}
+.app{position: absolute;left: 45%;top: 20px;font-size: 1.2rem;color: white;}
+.c_head .word1{position: absolute;left: 20px;right: 20px;top: 45px;font-size: 1rem;color: white;text-align: left;line-height: 20px;}
+.c_head .img{position: absolute;left: 20px;right: 20px;top: 80px;}
+.c_head .img img{width: 100%;height: 100%;}
+.c_head .word2{position: absolute;left: 30px;right: 30px;top: 200px;font-size: 1rem;color: white;}
+
+/*自动记录和识别*/
+.c_centerFather{width: 100%;height: 90px;background-color: rgb(255,255,255);}
+.c_center{width: 100%;height: 90px;margin: 0 auto;position: relative;}
+.c_word1{position: absolute;top: 20px;font-size: 1.3rem;left: 40%;}
+.c_word2{position: absolute;top: 50px;font-size: 1rem;left: 42%;}
+
+/*简单而华丽的界面*/
+.c_middleFather{width: 100%;height: 2100px;background-color: rgb(245,245,245);}
+.c_middle{width: 100%;height: 2100px;margin: 0 auto;position: relative;}
+.m_img1{position: absolute;left: 30px;right: 30px;top: 20px;}
+.m_img1 img{width: 50%;height: 50%;}
+.m_img2{position: absolute;left: 30px;right: 30px;top: 700px;}
+.m_img2 img{width: 50%;height: 50%;}
+.m_img3{position: absolute;left: 30px;right: 30px;top: 1350px;}
+.m_img3 img{width: 50%;height: 50%;}
+.m_word{position: absolute;top: 2000px;left: 40%;font-size: 1.3rem;}
+
+/*更多惊喜*/
+.c_footFather{width: 100%;height: 70px;background-color: rgb(149,198,17);}
+.c_foot{width: 100%;height: 70px;margin: 0 auto;position: relative;}
+.f_word{position: absolute;left: 35%;top: 30px;font-size: 1.2rem;color: white;}
+}
+
+/*320~600*/
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+	/*<!--私生活APP定位-->*/
+	header{position: fixed;width: 100%;height: 65px;top: 65px;left: 0;background-color: rgba(254,254,254,0.8);z-index: 100;}
+.h_word{margin-top: 18px;margin-left: 30px;font-size: 1.3rem;color: rgba(79,170,243,0.9);}
+
+/*中间*/
+center{width: 100%;margin-top: 120px;}
+/*第一个滚动图*/
+.c_up{width: 100%;height: 700px;}
+.swiper-container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}  
+.up_img1{background-image: url(../img/slide-01.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.up_img2{background-image: url(../img/slide-02.jpg);width: 100%;height: 700px;background-position: center;background-repeat: no-repeat;}
+.u_word1{position: absolute;left: 60px;bottom: 205px;font-size: 1.2rem;color: white;width: 290px;height: 60px;line-height: 30px;text-align: left;}
+.u_img1{position: absolute;left: 60px;bottom: 127px;}
+/*.u_img1 img{width: 50%;height: 50%;}*/
+.u_img2{position: absolute;left: 60px;bottom: 50px;}
+/*.u_img2 img{width: 50%;height: 50%;}*/
+.u_word2{font-size: 0.8rem;position: absolute;right: 11%;bottom: 40%;}
+.u_word2 a{color: white;}
+.prev{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: 0px 103px;/*background-color: red;*/display: inline-block;}
+.next{background-image: url(../img/new_version_icon.png);width: 60px;height: 60px;background-position: -60px 103px;/*background-color: red;*/display: inline-block;position: absolute;right: 5px;}
+
+/*私生活App*/
+.c_headFather{width: 100%;height:245px;background-color: rgb(80,170,244);}
+.c_head{width: 100%;height: 245px;margin: 0 auto;position: relative;}
+.app{position: absolute;left: 45%;top: 20px;font-size: 1.2rem;color: white;}
+.c_head .word1{position: absolute;left: 20px;right: 20px;top: 45px;font-size: 1rem;color: white;text-align: left;line-height: 20px;}
+.c_head .img{position: absolute;left: 20px;right: 20px;top: 115px;}
+.c_head .img img{width: 100%;height: 100%;}
+.c_head .word2{position: absolute;left: 30px;right: 30px;top: 200px;font-size: 1rem;color: white;}
+
+/*自动记录和识别*/
+.c_centerFather{width: 100%;height: 90px;background-color: rgb(255,255,255);}
+.c_center{width: 100%;height: 90px;margin: 0 auto;position: relative;}
+.c_word1{position: absolute;top: 20px;font-size: 1.3rem;left: 40%;}
+.c_word2{position: absolute;top: 50px;font-size: 1rem;left: 42%;}
+
+/*简单而华丽的界面*/
+.c_middleFather{width: 100%;height: 1400px;background-color: rgb(245,245,245);}
+.c_middle{width: 100%;height: 1400px;margin: 0 auto;position: relative;}
+.m_img1{position: absolute;left: 30px;right: 30px;top: 20px;}
+.m_img1 img{width: 50%;height: 50%;}
+.m_img2{position: absolute;left: 30px;right: 30px;top: 450px;}
+.m_img2 img{width: 50%;height: 50%;}
+.m_img3{position: absolute;left: 30px;right: 30px;top: 880px;}
+.m_img3 img{width: 50%;height: 50%;}
+.m_word{position: absolute;top: 1300px;left: 35%;font-size: 1.3rem;}
+
+/*更多惊喜*/
+.c_footFather{width: 100%;height: 70px;background-color: rgb(149,198,17);}
+.c_foot{width: 100%;height: 70px;margin: 0 auto;position: relative;}
+.f_word{position: absolute;left: 25%;right :10%;top: 30px;font-size: 1.2rem;color: white;}
+}
+
